@@ -1,0 +1,63 @@
+{
+  "videoUrl": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+  "title": "[1hr Talk] Intro to Large Language Models",
+  "recordedAt": "2026-09-27T15:38:57.695Z",
+  "provenance": {
+    "run": "seg-eval/baseline/2026-09-27T15-38-57-694Z",
+    "input": "videos/zjkBMFhNj_g/windows/0001/input.json",
+    "output": "videos/zjkBMFhNj_g/windows/0001/segmented.cues.json"
+  },
+  "settings": {
+    "provider": "midway",
+    "format": "openai",
+    "model": "deepseek-v4-flash",
+    "temperature": 0,
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "translate": false,
+    "mode": "boundary-v1",
+    "windowMode": "full",
+    "windowStartMs": 0,
+    "windowEndMs": 180000,
+    "systemPromptSha256": "8e33838a3dd4a111ce6f276950148cb1675575581106e4e47605eeb34769d6d1"
+  },
+  "before": [
+    {
+      "startMs": 160,
+      "endMs": 4240,
+      "text": "hi everyone so recently I gave a"
+    },
+    {
+      "startMs": 2280,
+      "endMs": 6399,
+      "text": "30-minute talk on large language models"
+    },
+    {
+      "startMs": 4240,
+      "endMs": 8480,
+      "text": "just kind of like an intro talk um"
+    },
+    {
+      "startMs": 6399,
+      "endMs": 10080,
+      "text": "unfortunately that talk was not recorded"
+    }
+  ],
+  "after": [
+    {
+      "startMs": 160,
+      "endMs": 4080,
+      "text": "hi everyone so recently I gave a 30-minute talk on large language models"
+    },
+    {
+      "startMs": 4080,
+      "endMs": 6160,
+      "text": "just kind of like an intro talk"
+    },
+    {
+      "startMs": 6160,
+      "endMs": 8199,
+      "text": "um unfortunately that talk was not recorded"
+    }
+  ]
+}
