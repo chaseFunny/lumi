@@ -1,0 +1,171 @@
+{
+  "videoUrl": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+  "title": "[1hr Talk] Intro to Large Language Models",
+  "author": "Andrej Karpathy",
+  "generatedAt": "2026-06-27T18:36:05.957Z",
+  "promptVersions": {
+    "summary": "summary-v3",
+    "article": "article-v4"
+  },
+  "summaryZh": "本次讲座全面介绍了大型语言模型（LLM）的核心概念、工作机制及未来发展方向。视频首先解释了LLM本质上是参数文件和运行代码的组合，其训练过程可视为对互联网数据的有损压缩。随后深入探讨了模型的不可理解性、从预训练到微调的转化过程，并介绍了通过人类反馈强化学习（RLHF）来优化模型。讲座还对比了开源与闭源模型的生态，阐述了缩放定律、工具使用能力以及多模态等未来关键方向。最后，视频展望了模型通过长时间思考和自我改进超越人类水平的潜力，并详细分析了越狱攻击、提示注入和数据投毒等安全威胁。",
+  "chaptersZh": [
+    {
+      "cueIndex": 6,
+      "startMs": 26000,
+      "endMs": 29759,
+      "title": "大型语言模型本质是参数文件和运行代码",
+      "summary": "大型语言模型在物理上可以看作两个文件：包含权重参数的文件和用于运行模型的代码文件。"
+    },
+    {
+      "cueIndex": 60,
+      "startMs": 256440,
+      "endMs": 260519,
+      "title": "模型训练是对互联网数据的有损压缩",
+      "summary": "模型的训练过程类似于对整个互联网的文本数据进行有损压缩，将知识提炼并存储于参数之中。"
+    },
+    {
+      "cueIndex": 98,
+      "startMs": 410840,
+      "endMs": 414199,
+      "title": "神经网络通过预测下一个词学习知识",
+      "summary": "模型的核心学习机制是通过预测序列中的下一个词（token）来捕捉语言模式和知识。"
+    },
+    {
+      "cueIndex": 218,
+      "startMs": 871560,
+      "endMs": 874600,
+      "title": "从预训练到微调：获得助手模型",
+      "summary": "基础模型经过预训练后，需要通过微调阶段，使用高质量的对话数据进行训练，才能转变为有用的助手模型。"
+    },
+    {
+      "cueIndex": 334,
+      "startMs": 1329120,
+      "endMs": 1333840,
+      "title": "基于人类反馈的强化学习（RLHF）",
+      "summary": "RLHF通过让人类对模型的输出进行排序和评分，来训练一个奖励模型，从而进一步微调语言模型，使其输出更符合人类偏好。"
+    },
+    {
+      "cueIndex": 381,
+      "startMs": 1530039,
+      "endMs": 1534240,
+      "title": "开源与闭源模型的生态现状",
+      "summary": "当前大语言模型生态分为闭源商业模型（如GPT-4）和开源模型（如Llama）两大阵营，各有其发展路径。"
+    },
+    {
+      "cueIndex": 403,
+      "startMs": 1640000,
+      "endMs": 1644320,
+      "title": "缩放定律驱动模型性能提升",
+      "summary": "缩放定律表明，模型性能与模型参数、数据量和计算资源呈幂律关系，是推动模型进步的核心动力。"
+    },
+    {
+      "cueIndex": 468,
+      "startMs": 1942760,
+      "endMs": 1947919,
+      "title": "工具使用能力增强模型实用性",
+      "summary": "允许模型调用计算器、搜索引擎或代码解释器等外部工具，能极大地弥补其固有缺陷，提升解决复杂任务的能力。"
+    },
+    {
+      "cueIndex": 534,
+      "startMs": 2253520,
+      "endMs": 2256880,
+      "title": "长时间思考的愿景",
+      "summary": "未来的改进方向之一是让模型能够进行更长时间的主动思考和推理，类似于人类的深思熟虑，从而提升复杂问题解决能力。"
+    },
+    {
+      "cueIndex": 583,
+      "startMs": 2469200,
+      "endMs": 2471400,
+      "title": "GPTs应用商店的定制化",
+      "summary": "通过类似应用商店的模式，用户可以创建或使用针对特定任务定制的GPTs，从而让通用模型转变为任务专家。"
+    },
+    {
+      "cueIndex": 735,
+      "startMs": 3026119,
+      "endMs": 3035559,
+      "title": "对抗样本实现越狱",
+      "summary": "越狱攻击通常利用精心设计的提示（对抗样本）来绕过模型的安全限制，使其生成本应被禁止的内容。"
+    },
+    {
+      "cueIndex": 756,
+      "startMs": 3133200,
+      "endMs": 3137880,
+      "title": "提示注入攻击原理",
+      "summary": "提示注入攻击是指恶意用户将指令隐藏在用户输入中，误导模型遵循该指令而非原始任务，可能导致信息泄露或执行恶意操作。"
+    }
+  ],
+  "bilingualSubtitlesSample": [
+    {
+      "startMs": 160,
+      "endMs": 3760,
+      "source": "hi everyone so recently I gave a 30-minute talk on large language models",
+      "translation": "大家好，最近我做了一个关于大语言模型的30分钟演讲"
+    },
+    {
+      "startMs": 3760,
+      "endMs": 7759,
+      "source": "just kind of like an intro talk um unfortunately that talk was not recorded",
+      "translation": "算是个入门介绍吧，可惜那次演讲没有录像"
+    },
+    {
+      "startMs": 7759,
+      "endMs": 12799,
+      "source": "but a lot of people came to me after the talk and they told me that uh they really liked the talk",
+      "translation": "但很多人在演讲后找到我，说他们真的很喜欢那次分享"
+    },
+    {
+      "startMs": 12799,
+      "endMs": 16600,
+      "source": "so I would just I thought I would just re-record it and basically put it up on YouTube",
+      "translation": "所以我想，不如重新录一次，基本上就是放到YouTube上"
+    },
+    {
+      "startMs": 16600,
+      "endMs": 21600,
+      "source": "so here we go the busy person's intro to large language models director Scott",
+      "translation": "那么我们开始吧，忙碌人士的大语言模型入门指南，导演Scott"
+    },
+    {
+      "startMs": 21600,
+      "endMs": 26000,
+      "source": "okay so let's begin first of all what is a large language model really",
+      "translation": "好的，我们开始吧。首先，大语言模型到底是什么"
+    },
+    {
+      "startMs": 26000,
+      "endMs": 29759,
+      "source": "well a large language model is just two files right um",
+      "translation": "嗯，大语言模型其实就是两个文件，对吧"
+    },
+    {
+      "startMs": 29759,
+      "endMs": 32599,
+      "source": "there will be two files in this hypothetical directory",
+      "translation": "在这个假设的目录里会有两个文件"
+    },
+    {
+      "startMs": 32599,
+      "endMs": 37079,
+      "source": "so for example working with a specific example of the Llama 270b model",
+      "translation": "举个具体的例子，比如Llama 270b模型"
+    },
+    {
+      "startMs": 37079,
+      "endMs": 41079,
+      "source": "this is a large language model released by meta Ai",
+      "translation": "这是Meta AI发布的一个大语言模型"
+    },
+    {
+      "startMs": 41079,
+      "endMs": 45800,
+      "source": "and this is basically the Llama series of language models the second iteration of it",
+      "translation": "这基本上就是 Llama 系列语言模型，是它的第二代版本"
+    },
+    {
+      "startMs": 45800,
+      "endMs": 51360,
+      "source": "and this is the 70 billion parameter model of uh of this series",
+      "translation": "这是该系列中 700 亿参数的模型"
+    }
+  ]
+}
